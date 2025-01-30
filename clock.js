@@ -16,8 +16,7 @@ month.textContent=currentTime.getMonth()+1;
 year.textContent=currentTime.getFullYear();
 
 
-//updates seconds every 1000 miliSecond i.e sec
-//used for updating hrs,mins and second
+//updates seconds every 1000 miliSecond i.e sec and others accoredingly.
 setInterval(()=>{
     currentTime=new Date();
     sec.textContent=currentTime.getSeconds()
